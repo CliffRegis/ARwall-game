@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
-    ufoLicenseKey: QWN6TzhoYi8vLy8vQUFBQUtBZ1RtSzU5U2s4OGlodmEvQWJ1Mk9wZ01EUDdPOEk2VjNNcW5ZRGUwZGs3Tm1KckVLN0lUUzl0YUNtOFY0cW41YkovK3dFNUNHS1B2MjRaQ0RqQzJnc0puV1g0Y05tZ3I2SkxMVVM5TEM0M0ljNmZSUVlQMml4em45ZUxmaTVrVnZtWmdqS0RoK1MrZW9tdnhORk85SUpSRTB0TXVteFEyT1JFc29oallsSm5iYXBNWXJIQU56UkNFNjVJUmsxaEpWK2oyUFhoaUZRMFBxVEZZL1BYRzk3Z1RtNkorQTdIeEp5YlJxNTVhR2lCUkxmaEw5RFFzd1ZKbmxOOWh5OFh6TjRtK25qdmlxaCtSK21iL3Fxa0ZrU0FHQjNPdmdIOTVHSEU1U01rcXNrVm5uUitZc2htcjhhQ1dXaTFaSnVqSlhoNUVsTkRRS2c4b1hvbmRZYzJTR3dtNzd5VTJMcnN4VjE1dGQ0dkVnclM=
+    vuforiaLicenseKey: ATav1S//////AAABmb4xhaICdEPdk7/wzDXle6U6KZbLOmeQGoLnZqlFxYXMqP/hJOSgsB3OWhe/RIzwsueoMhVtEZIPYXWu2G8iz7b6v1i6mTRX2+7MdYfawHGiUDS92tG8OUt+eEtj2pFcSm/9mnuGstYloKv7VQzpb4vRqBnuKmpSVIX7X01kOEL46mxAAToNdgeECc+T8RXu1ZYTMHnThEhQw05nhRJ9z8/V1Z7po3+PygyYNyHgf2ytDlPMDAqG4n+DFtpl1ZAJFTUlTMWGbc58tUJzd5DI6ubVzibK9EHxyu51+/syTwAWnmdCRsNvTkHir6Tcq18lC4oEfEq70hYCqtfYNJ7DCv71KoEsFqi/2LQjIv7F6Oqr
+    ufoLicenseKey: QVM2Zkptdi8vLy8vQUFBQUtISHMxNXk3WWsrZGo5bC9WbGxwVDRhSDlLR3pKR09qb0MyVE95bWk1ZXQyc0ZpcCsybjJPVzRZUng5ejk0aEZ4dlJ6cjdYci9qeEIxREJ4QmM2bWt2dnhTN09kNTFPTWxpcGV4SytUWVR6bndrOXBGS2MwTlNSa1FEK2pUaDVjQVZRSDF0a2RBTzk2SG1ZaXFLWnpLWU5WViswTmFvbVBnOFFscXd1eGIyVlB3c3loaXdzTTd6czRUaHFyYTZsMmNHcmU3SXZ5czZxNmx5Sk5oVjJVWmlVbVlBakNpV3lxNGY5ZmZ0UEFsSllXWStQMzVJZ2ptNlY5eUFyVHBsNGdMMTg4dXg1OGo4NEZFeU83Zk4weU1JcWFwSUNzUkJVQ1RNcFdRTmozZ296Y09yeXozd2FCc2pWSzZhUU9zdXlhYUpqOWRXOGVOczB3aFVEdXNlUENveFIrbDcremUwZnlLWXJoZis2OGlDNUc=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
-    version: 1.0.0
-    eulaAcceptedVersions: 
+    version: 8.1.7
+    eulaAcceptedVersions: '{"Values":["8.1"]}'
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
@@ -48,8 +48,9 @@ MonoBehaviour:
   videoBackground:
     clippingMode: 0
     numDivisions: 2
-    videoBackgroundShader: {fileID: 0}
-    matteShader: {fileID: 0}
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
+    matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
     autoInitTracker: 0
