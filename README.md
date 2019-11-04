@@ -1,2 +1,2 @@
 # ARwall-game
-Augmented reality game, where trump builds wall. (non-political; satire)
+Augmented reality game, where 3d character move based on mobile control. 
